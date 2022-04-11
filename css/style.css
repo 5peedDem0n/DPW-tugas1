@@ -1,0 +1,70 @@
+body {
+  background-color: #ccc;
+  /* color: #fff; */
+}
+
+header {
+  float: left;
+  width: 25%;
+}
+
+main {
+  clear: left;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+nav {
+  width: 70%;
+  float: right;
+  margin: 5em 3em 0 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1.75em;
+}
+
+nav li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#exercises {
+  clear: left;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 1px 1px;
+  color: #fff;
+}
+
+.external-link {
+  /* text-decoration: none; */
+  color: #fff;
+}
+
+#copyright {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
