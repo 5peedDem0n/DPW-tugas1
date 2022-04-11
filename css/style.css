@@ -1,47 +1,32 @@
 body {
-  background-color: #1D1D1C;
-  font-family: 'Poppins', sans-serif;
-  /* color: #fff; */
-}
-
-header {
-  float: left;
-  width: 25%;
-  text-align: center;
-}
-
-main {
-  clear: left;
+  background-color: #1d1d1c;
+  font-family: "Poppins", sans-serif;
 }
 
 img {
-  max-width: 100%;
-  display: block;
+	max-width: 100%;
 }
 
+header {
+	text-align: center;
+}
 
 nav {
-  width: 70%;
-  float: right;
-  margin: 5em 3em 0 0;
 	font-size: 1.25em;
 	font-weight: bold;
 	text-align: center;
-	margin-top: 1em;
+	margin-top: -1.5em;
 }
 
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  text-align: right;
-  padding: 0;
+	padding: 0;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 }
 
+
 nav li {
-  display: inline-block;
-  background-color: #066163;
+	background-color: #066163;
 	border-radius: 2em;
 	list-style-type: none;
 	margin: 0.3em;
@@ -49,17 +34,8 @@ nav li {
 }
 
 nav li a {
-  display: block;
-  color: #fff;
-  text-align: center;
-  padding: 0.5em 1em;
-  text-decoration: none;
-}
-
-.container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+	color: #FFFFFF;
+	text-decoration: none;
 }
 
 #exercises {
@@ -70,6 +46,16 @@ nav li a {
   color: #fff;
   margin-left: 50px;
   margin-right: 50px;
+}
+
+.margin-exercise {
+  margin-left: 30px;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .external-link {
@@ -84,4 +70,94 @@ nav li a {
 
 .center {
   text-align: center;
+}
+
+/* Media query desktop minimum width 830px */
+
+@media only screen and (min-width: 830px) {
+  /*DESKTOP*/
+  header {
+    float: left;
+    width: 25%;
+    text-align: center;
+  }
+
+  main {
+    clear: left;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+  }
+
+  nav {
+    width: 70%;
+    float: right;
+    margin: 5em 3em 0 0;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1em;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  nav li {
+    display: inline-block;
+    background-color: #066163;
+    border-radius: 2em;
+    list-style-type: none;
+    margin: 0.3em;
+    padding: 0.4em;
+  }
+
+  nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+  }
+
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #exercises {
+    clear: left;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 1px 1px;
+    color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .margin-exercise {
+    margin-left: 30px;
+  }
+
+  .external-link {
+    /* text-decoration: none; */
+    color: #fff;
+  }
+
+  #copyright {
+    text-align: center;
+    color: #fff;
+  }
+
+  .center {
+    text-align: center;
+  }
 }
